@@ -1,0 +1,2035 @@
+{
+  "monthly_revenue": [
+    {
+      "ym": "2022-01",
+      "loads": 2466,
+      "revenue": 7566361.99,
+      "avg_rev_per_load": 3068.27,
+      "total_weight": 67781129.0,
+      "ym_dt": "2022-01-01 00:00:00"
+    },
+    {
+      "ym": "2022-02",
+      "loads": 2179,
+      "revenue": 6574259.06,
+      "avg_rev_per_load": 3017.1,
+      "total_weight": 60678298.0,
+      "ym_dt": "2022-02-01 00:00:00"
+    },
+    {
+      "ym": "2022-03",
+      "loads": 2370,
+      "revenue": 7401197.05,
+      "avg_rev_per_load": 3122.87,
+      "total_weight": 65293326.0,
+      "ym_dt": "2022-03-01 00:00:00"
+    },
+    {
+      "ym": "2022-04",
+      "loads": 2346,
+      "revenue": 7156041.22,
+      "avg_rev_per_load": 3050.32,
+      "total_weight": 65435432.0,
+      "ym_dt": "2022-04-01 00:00:00"
+    },
+    {
+      "ym": "2022-05",
+      "loads": 2428,
+      "revenue": 7518061.33,
+      "avg_rev_per_load": 3096.4,
+      "total_weight": 67090971.0,
+      "ym_dt": "2022-05-01 00:00:00"
+    },
+    {
+      "ym": "2022-06",
+      "loads": 2376,
+      "revenue": 7325637.69,
+      "avg_rev_per_load": 3083.18,
+      "total_weight": 65521195.0,
+      "ym_dt": "2022-06-01 00:00:00"
+    },
+    {
+      "ym": "2022-07",
+      "loads": 2421,
+      "revenue": 7380097.23,
+      "avg_rev_per_load": 3048.37,
+      "total_weight": 67004294.0,
+      "ym_dt": "2022-07-01 00:00:00"
+    },
+    {
+      "ym": "2022-08",
+      "loads": 2496,
+      "revenue": 7716839.57,
+      "avg_rev_per_load": 3091.68,
+      "total_weight": 68469454.0,
+      "ym_dt": "2022-08-01 00:00:00"
+    },
+    {
+      "ym": "2022-09",
+      "loads": 2304,
+      "revenue": 7108889.83,
+      "avg_rev_per_load": 3085.46,
+      "total_weight": 62633260.0,
+      "ym_dt": "2022-09-01 00:00:00"
+    },
+    {
+      "ym": "2022-10",
+      "loads": 2468,
+      "revenue": 7501831.55,
+      "avg_rev_per_load": 3039.64,
+      "total_weight": 68407077.0,
+      "ym_dt": "2022-10-01 00:00:00"
+    },
+    {
+      "ym": "2022-11",
+      "loads": 2360,
+      "revenue": 7260206.36,
+      "avg_rev_per_load": 3076.36,
+      "total_weight": 64991194.0,
+      "ym_dt": "2022-11-01 00:00:00"
+    },
+    {
+      "ym": "2022-12",
+      "loads": 2375,
+      "revenue": 7341477.11,
+      "avg_rev_per_load": 3091.15,
+      "total_weight": 64743103.0,
+      "ym_dt": "2022-12-01 00:00:00"
+    },
+    {
+      "ym": "2023-01",
+      "loads": 2437,
+      "revenue": 7428081.31,
+      "avg_rev_per_load": 3048.04,
+      "total_weight": 67378350.0,
+      "ym_dt": "2023-01-01 00:00:00"
+    },
+    {
+      "ym": "2023-02",
+      "loads": 2136,
+      "revenue": 6618783.0,
+      "avg_rev_per_load": 3098.68,
+      "total_weight": 58850060.0,
+      "ym_dt": "2023-02-01 00:00:00"
+    },
+    {
+      "ym": "2023-03",
+      "loads": 2412,
+      "revenue": 7509745.7,
+      "avg_rev_per_load": 3113.49,
+      "total_weight": 65514407.0,
+      "ym_dt": "2023-03-01 00:00:00"
+    },
+    {
+      "ym": "2023-04",
+      "loads": 2336,
+      "revenue": 7289831.14,
+      "avg_rev_per_load": 3120.65,
+      "total_weight": 63929683.0,
+      "ym_dt": "2023-04-01 00:00:00"
+    },
+    {
+      "ym": "2023-05",
+      "loads": 2348,
+      "revenue": 7243795.22,
+      "avg_rev_per_load": 3085.09,
+      "total_weight": 64502341.0,
+      "ym_dt": "2023-05-01 00:00:00"
+    },
+    {
+      "ym": "2023-06",
+      "loads": 2312,
+      "revenue": 7278443.23,
+      "avg_rev_per_load": 3148.12,
+      "total_weight": 62850747.0,
+      "ym_dt": "2023-06-01 00:00:00"
+    },
+    {
+      "ym": "2023-07",
+      "loads": 2433,
+      "revenue": 7576414.14,
+      "avg_rev_per_load": 3114.02,
+      "total_weight": 66677240.0,
+      "ym_dt": "2023-07-01 00:00:00"
+    },
+    {
+      "ym": "2023-08",
+      "loads": 2344,
+      "revenue": 7194393.58,
+      "avg_rev_per_load": 3069.28,
+      "total_weight": 63994416.0,
+      "ym_dt": "2023-08-01 00:00:00"
+    },
+    {
+      "ym": "2023-09",
+      "loads": 2327,
+      "revenue": 7018436.2,
+      "avg_rev_per_load": 3016.09,
+      "total_weight": 62627523.0,
+      "ym_dt": "2023-09-01 00:00:00"
+    },
+    {
+      "ym": "2023-10",
+      "loads": 2397,
+      "revenue": 7406523.72,
+      "avg_rev_per_load": 3089.91,
+      "total_weight": 65354366.0,
+      "ym_dt": "2023-10-01 00:00:00"
+    },
+    {
+      "ym": "2023-11",
+      "loads": 2364,
+      "revenue": 7235373.47,
+      "avg_rev_per_load": 3060.65,
+      "total_weight": 65432893.0,
+      "ym_dt": "2023-11-01 00:00:00"
+    },
+    {
+      "ym": "2023-12",
+      "loads": 2319,
+      "revenue": 7155728.93,
+      "avg_rev_per_load": 3085.7,
+      "total_weight": 63193856.0,
+      "ym_dt": "2023-12-01 00:00:00"
+    },
+    {
+      "ym": "2024-01",
+      "loads": 2401,
+      "revenue": 7386201.05,
+      "avg_rev_per_load": 3076.3,
+      "total_weight": 65666421.0,
+      "ym_dt": "2024-01-01 00:00:00"
+    },
+    {
+      "ym": "2024-02",
+      "loads": 2267,
+      "revenue": 6970220.94,
+      "avg_rev_per_load": 3074.65,
+      "total_weight": 62562492.0,
+      "ym_dt": "2024-02-01 00:00:00"
+    },
+    {
+      "ym": "2024-03",
+      "loads": 2431,
+      "revenue": 7453599.0,
+      "avg_rev_per_load": 3066.06,
+      "total_weight": 66967972.0,
+      "ym_dt": "2024-03-01 00:00:00"
+    },
+    {
+      "ym": "2024-04",
+      "loads": 2354,
+      "revenue": 7122948.73,
+      "avg_rev_per_load": 3025.89,
+      "total_weight": 64517112.0,
+      "ym_dt": "2024-04-01 00:00:00"
+    },
+    {
+      "ym": "2024-05",
+      "loads": 2442,
+      "revenue": 7569586.95,
+      "avg_rev_per_load": 3099.75,
+      "total_weight": 66838950.0,
+      "ym_dt": "2024-05-01 00:00:00"
+    },
+    {
+      "ym": "2024-06",
+      "loads": 2418,
+      "revenue": 7489030.25,
+      "avg_rev_per_load": 3097.2,
+      "total_weight": 66614300.0,
+      "ym_dt": "2024-06-01 00:00:00"
+    },
+    {
+      "ym": "2024-07",
+      "loads": 2394,
+      "revenue": 7310741.99,
+      "avg_rev_per_load": 3053.78,
+      "total_weight": 66009436.0,
+      "ym_dt": "2024-07-01 00:00:00"
+    },
+    {
+      "ym": "2024-08",
+      "loads": 2426,
+      "revenue": 7349694.49,
+      "avg_rev_per_load": 3029.55,
+      "total_weight": 67194670.0,
+      "ym_dt": "2024-08-01 00:00:00"
+    },
+    {
+      "ym": "2024-09",
+      "loads": 2339,
+      "revenue": 7145569.37,
+      "avg_rev_per_load": 3054.97,
+      "total_weight": 64601198.0,
+      "ym_dt": "2024-09-01 00:00:00"
+    },
+    {
+      "ym": "2024-10",
+      "loads": 2474,
+      "revenue": 7497105.73,
+      "avg_rev_per_load": 3030.36,
+      "total_weight": 67800509.0,
+      "ym_dt": "2024-10-01 00:00:00"
+    },
+    {
+      "ym": "2024-11",
+      "loads": 2357,
+      "revenue": 7095885.93,
+      "avg_rev_per_load": 3010.56,
+      "total_weight": 64831539.0,
+      "ym_dt": "2024-11-01 00:00:00"
+    },
+    {
+      "ym": "2024-12",
+      "loads": 2353,
+      "revenue": 7328766.23,
+      "avg_rev_per_load": 3114.65,
+      "total_weight": 64893660.0,
+      "ym_dt": "2024-12-01 00:00:00"
+    }
+  ],
+  "yoy_comparison": [
+    {
+      "yr": "2022",
+      "loads": 28589,
+      "revenue": 87850899.99,
+      "avg_rev_per_load": 3072.89,
+      "fuel_surch": 10030443.93,
+      "accessorial": 2040975.0,
+      "weight_k": 788048.7
+    },
+    {
+      "yr": "2023",
+      "loads": 28165,
+      "revenue": 86955549.64,
+      "avg_rev_per_load": 3087.36,
+      "fuel_surch": 9936563.16,
+      "accessorial": 2016125.0,
+      "weight_k": 770305.9
+    },
+    {
+      "yr": "2024",
+      "loads": 28656,
+      "revenue": 87719350.66,
+      "avg_rev_per_load": 3061.12,
+      "fuel_surch": 10009521.56,
+      "accessorial": 2062000.0,
+      "weight_k": 788498.3
+    }
+  ],
+  "yoy_growth": [
+    {
+      "yr": "2022",
+      "rev_growth_pct": null,
+      "loads_growth_pct": null
+    },
+    {
+      "yr": "2023",
+      "rev_growth_pct": -1.0191703785640382,
+      "loads_growth_pct": -1.483087900940916
+    },
+    {
+      "yr": "2024",
+      "rev_growth_pct": 0.8783809925440922,
+      "loads_growth_pct": 1.7432984200248525
+    }
+  ],
+  "ontime_monthly": [
+    {
+      "ym": "2022-01",
+      "event_type": "Delivery",
+      "total": 2383,
+      "on_time": 1049,
+      "on_time_pct": 44.02,
+      "avg_det": 106.3,
+      "ym_dt": "2022-01-01 00:00:00"
+    },
+    {
+      "ym": "2022-01",
+      "event_type": "Pickup",
+      "total": 2466,
+      "on_time": 1625,
+      "on_time_pct": 65.9,
+      "avg_det": 75.1,
+      "ym_dt": "2022-01-01 00:00:00"
+    },
+    {
+      "ym": "2022-02",
+      "event_type": "Delivery",
+      "total": 2188,
+      "on_time": 985,
+      "on_time_pct": 45.02,
+      "avg_det": 106.5,
+      "ym_dt": "2022-02-01 00:00:00"
+    },
+    {
+      "ym": "2022-02",
+      "event_type": "Pickup",
+      "total": 2179,
+      "on_time": 1432,
+      "on_time_pct": 65.72,
+      "avg_det": 77.6,
+      "ym_dt": "2022-02-01 00:00:00"
+    },
+    {
+      "ym": "2022-03",
+      "event_type": "Delivery",
+      "total": 2340,
+      "on_time": 1070,
+      "on_time_pct": 45.73,
+      "avg_det": 107.8,
+      "ym_dt": "2022-03-01 00:00:00"
+    },
+    {
+      "ym": "2022-03",
+      "event_type": "Pickup",
+      "total": 2370,
+      "on_time": 1533,
+      "on_time_pct": 64.68,
+      "avg_det": 73.4,
+      "ym_dt": "2022-03-01 00:00:00"
+    },
+    {
+      "ym": "2022-04",
+      "event_type": "Delivery",
+      "total": 2374,
+      "on_time": 1057,
+      "on_time_pct": 44.52,
+      "avg_det": 106.3,
+      "ym_dt": "2022-04-01 00:00:00"
+    },
+    {
+      "ym": "2022-04",
+      "event_type": "Pickup",
+      "total": 2346,
+      "on_time": 1597,
+      "on_time_pct": 68.07,
+      "avg_det": 76.1,
+      "ym_dt": "2022-04-01 00:00:00"
+    },
+    {
+      "ym": "2022-05",
+      "event_type": "Delivery",
+      "total": 2432,
+      "on_time": 1076,
+      "on_time_pct": 44.24,
+      "avg_det": 104.2,
+      "ym_dt": "2022-05-01 00:00:00"
+    },
+    {
+      "ym": "2022-05",
+      "event_type": "Pickup",
+      "total": 2428,
+      "on_time": 1634,
+      "on_time_pct": 67.3,
+      "avg_det": 77.3,
+      "ym_dt": "2022-05-01 00:00:00"
+    },
+    {
+      "ym": "2022-06",
+      "event_type": "Delivery",
+      "total": 2363,
+      "on_time": 1063,
+      "on_time_pct": 44.99,
+      "avg_det": 108.4,
+      "ym_dt": "2022-06-01 00:00:00"
+    },
+    {
+      "ym": "2022-06",
+      "event_type": "Pickup",
+      "total": 2376,
+      "on_time": 1590,
+      "on_time_pct": 66.92,
+      "avg_det": 75.2,
+      "ym_dt": "2022-06-01 00:00:00"
+    },
+    {
+      "ym": "2022-07",
+      "event_type": "Delivery",
+      "total": 2411,
+      "on_time": 1055,
+      "on_time_pct": 43.76,
+      "avg_det": 110.5,
+      "ym_dt": "2022-07-01 00:00:00"
+    },
+    {
+      "ym": "2022-07",
+      "event_type": "Pickup",
+      "total": 2421,
+      "on_time": 1639,
+      "on_time_pct": 67.7,
+      "avg_det": 76.9,
+      "ym_dt": "2022-07-01 00:00:00"
+    },
+    {
+      "ym": "2022-08",
+      "event_type": "Delivery",
+      "total": 2513,
+      "on_time": 1150,
+      "on_time_pct": 45.76,
+      "avg_det": 107.6,
+      "ym_dt": "2022-08-01 00:00:00"
+    },
+    {
+      "ym": "2022-08",
+      "event_type": "Pickup",
+      "total": 2496,
+      "on_time": 1645,
+      "on_time_pct": 65.91,
+      "avg_det": 76.5,
+      "ym_dt": "2022-08-01 00:00:00"
+    },
+    {
+      "ym": "2022-09",
+      "event_type": "Delivery",
+      "total": 2306,
+      "on_time": 1006,
+      "on_time_pct": 43.63,
+      "avg_det": 105.3,
+      "ym_dt": "2022-09-01 00:00:00"
+    },
+    {
+      "ym": "2022-09",
+      "event_type": "Pickup",
+      "total": 2304,
+      "on_time": 1535,
+      "on_time_pct": 66.62,
+      "avg_det": 77.9,
+      "ym_dt": "2022-09-01 00:00:00"
+    },
+    {
+      "ym": "2022-10",
+      "event_type": "Delivery",
+      "total": 2468,
+      "on_time": 1136,
+      "on_time_pct": 46.03,
+      "avg_det": 107.3,
+      "ym_dt": "2022-10-01 00:00:00"
+    },
+    {
+      "ym": "2022-10",
+      "event_type": "Pickup",
+      "total": 2468,
+      "on_time": 1680,
+      "on_time_pct": 68.07,
+      "avg_det": 76.8,
+      "ym_dt": "2022-10-01 00:00:00"
+    },
+    {
+      "ym": "2022-11",
+      "event_type": "Delivery",
+      "total": 2351,
+      "on_time": 1043,
+      "on_time_pct": 44.36,
+      "avg_det": 105.8,
+      "ym_dt": "2022-11-01 00:00:00"
+    },
+    {
+      "ym": "2022-11",
+      "event_type": "Pickup",
+      "total": 2360,
+      "on_time": 1588,
+      "on_time_pct": 67.29,
+      "avg_det": 78.7,
+      "ym_dt": "2022-11-01 00:00:00"
+    },
+    {
+      "ym": "2022-12",
+      "event_type": "Delivery",
+      "total": 2366,
+      "on_time": 1040,
+      "on_time_pct": 43.96,
+      "avg_det": 105.7,
+      "ym_dt": "2022-12-01 00:00:00"
+    },
+    {
+      "ym": "2022-12",
+      "event_type": "Pickup",
+      "total": 2375,
+      "on_time": 1609,
+      "on_time_pct": 67.75,
+      "avg_det": 74.8,
+      "ym_dt": "2022-12-01 00:00:00"
+    },
+    {
+      "ym": "2023-01",
+      "event_type": "Delivery",
+      "total": 2438,
+      "on_time": 1108,
+      "on_time_pct": 45.45,
+      "avg_det": 107.7,
+      "ym_dt": "2023-01-01 00:00:00"
+    },
+    {
+      "ym": "2023-01",
+      "event_type": "Pickup",
+      "total": 2437,
+      "on_time": 1607,
+      "on_time_pct": 65.94,
+      "avg_det": 77.5,
+      "ym_dt": "2023-01-01 00:00:00"
+    },
+    {
+      "ym": "2023-02",
+      "event_type": "Delivery",
+      "total": 2151,
+      "on_time": 931,
+      "on_time_pct": 43.28,
+      "avg_det": 104.5,
+      "ym_dt": "2023-02-01 00:00:00"
+    },
+    {
+      "ym": "2023-02",
+      "event_type": "Pickup",
+      "total": 2136,
+      "on_time": 1445,
+      "on_time_pct": 67.65,
+      "avg_det": 78.2,
+      "ym_dt": "2023-02-01 00:00:00"
+    },
+    {
+      "ym": "2023-03",
+      "event_type": "Delivery",
+      "total": 2413,
+      "on_time": 1052,
+      "on_time_pct": 43.6,
+      "avg_det": 108.4,
+      "ym_dt": "2023-03-01 00:00:00"
+    },
+    {
+      "ym": "2023-03",
+      "event_type": "Pickup",
+      "total": 2412,
+      "on_time": 1594,
+      "on_time_pct": 66.09,
+      "avg_det": 74.8,
+      "ym_dt": "2023-03-01 00:00:00"
+    },
+    {
+      "ym": "2023-04",
+      "event_type": "Delivery",
+      "total": 2338,
+      "on_time": 1068,
+      "on_time_pct": 45.68,
+      "avg_det": 106.4,
+      "ym_dt": "2023-04-01 00:00:00"
+    },
+    {
+      "ym": "2023-04",
+      "event_type": "Pickup",
+      "total": 2336,
+      "on_time": 1533,
+      "on_time_pct": 65.63,
+      "avg_det": 76.8,
+      "ym_dt": "2023-04-01 00:00:00"
+    },
+    {
+      "ym": "2023-05",
+      "event_type": "Delivery",
+      "total": 2328,
+      "on_time": 1050,
+      "on_time_pct": 45.1,
+      "avg_det": 106.6,
+      "ym_dt": "2023-05-01 00:00:00"
+    },
+    {
+      "ym": "2023-05",
+      "event_type": "Pickup",
+      "total": 2348,
+      "on_time": 1545,
+      "on_time_pct": 65.8,
+      "avg_det": 75.2,
+      "ym_dt": "2023-05-01 00:00:00"
+    },
+    {
+      "ym": "2023-06",
+      "event_type": "Delivery",
+      "total": 2323,
+      "on_time": 1030,
+      "on_time_pct": 44.34,
+      "avg_det": 107.4,
+      "ym_dt": "2023-06-01 00:00:00"
+    },
+    {
+      "ym": "2023-06",
+      "event_type": "Pickup",
+      "total": 2312,
+      "on_time": 1575,
+      "on_time_pct": 68.12,
+      "avg_det": 77.7,
+      "ym_dt": "2023-06-01 00:00:00"
+    },
+    {
+      "ym": "2023-07",
+      "event_type": "Delivery",
+      "total": 2423,
+      "on_time": 1117,
+      "on_time_pct": 46.1,
+      "avg_det": 106.7,
+      "ym_dt": "2023-07-01 00:00:00"
+    },
+    {
+      "ym": "2023-07",
+      "event_type": "Pickup",
+      "total": 2433,
+      "on_time": 1628,
+      "on_time_pct": 66.91,
+      "avg_det": 78.2,
+      "ym_dt": "2023-07-01 00:00:00"
+    },
+    {
+      "ym": "2023-08",
+      "event_type": "Delivery",
+      "total": 2368,
+      "on_time": 1010,
+      "on_time_pct": 42.65,
+      "avg_det": 104.5,
+      "ym_dt": "2023-08-01 00:00:00"
+    },
+    {
+      "ym": "2023-08",
+      "event_type": "Pickup",
+      "total": 2344,
+      "on_time": 1538,
+      "on_time_pct": 65.61,
+      "avg_det": 76.0,
+      "ym_dt": "2023-08-01 00:00:00"
+    },
+    {
+      "ym": "2023-09",
+      "event_type": "Delivery",
+      "total": 2311,
+      "on_time": 1052,
+      "on_time_pct": 45.52,
+      "avg_det": 103.5,
+      "ym_dt": "2023-09-01 00:00:00"
+    },
+    {
+      "ym": "2023-09",
+      "event_type": "Pickup",
+      "total": 2327,
+      "on_time": 1554,
+      "on_time_pct": 66.78,
+      "avg_det": 76.3,
+      "ym_dt": "2023-09-01 00:00:00"
+    },
+    {
+      "ym": "2023-10",
+      "event_type": "Delivery",
+      "total": 2397,
+      "on_time": 1088,
+      "on_time_pct": 45.39,
+      "avg_det": 105.6,
+      "ym_dt": "2023-10-01 00:00:00"
+    },
+    {
+      "ym": "2023-10",
+      "event_type": "Pickup",
+      "total": 2397,
+      "on_time": 1590,
+      "on_time_pct": 66.33,
+      "avg_det": 77.7,
+      "ym_dt": "2023-10-01 00:00:00"
+    },
+    {
+      "ym": "2023-11",
+      "event_type": "Delivery",
+      "total": 2372,
+      "on_time": 1044,
+      "on_time_pct": 44.01,
+      "avg_det": 106.6,
+      "ym_dt": "2023-11-01 00:00:00"
+    },
+    {
+      "ym": "2023-11",
+      "event_type": "Pickup",
+      "total": 2364,
+      "on_time": 1564,
+      "on_time_pct": 66.16,
+      "avg_det": 74.9,
+      "ym_dt": "2023-11-01 00:00:00"
+    },
+    {
+      "ym": "2023-12",
+      "event_type": "Delivery",
+      "total": 2317,
+      "on_time": 1007,
+      "on_time_pct": 43.46,
+      "avg_det": 104.6,
+      "ym_dt": "2023-12-01 00:00:00"
+    },
+    {
+      "ym": "2023-12",
+      "event_type": "Pickup",
+      "total": 2319,
+      "on_time": 1561,
+      "on_time_pct": 67.31,
+      "avg_det": 76.1,
+      "ym_dt": "2023-12-01 00:00:00"
+    },
+    {
+      "ym": "2024-01",
+      "event_type": "Delivery",
+      "total": 2395,
+      "on_time": 1085,
+      "on_time_pct": 45.3,
+      "avg_det": 109.5,
+      "ym_dt": "2024-01-01 00:00:00"
+    },
+    {
+      "ym": "2024-01",
+      "event_type": "Pickup",
+      "total": 2401,
+      "on_time": 1592,
+      "on_time_pct": 66.31,
+      "avg_det": 74.8,
+      "ym_dt": "2024-01-01 00:00:00"
+    },
+    {
+      "ym": "2024-02",
+      "event_type": "Delivery",
+      "total": 2270,
+      "on_time": 1012,
+      "on_time_pct": 44.58,
+      "avg_det": 108.1,
+      "ym_dt": "2024-02-01 00:00:00"
+    },
+    {
+      "ym": "2024-02",
+      "event_type": "Pickup",
+      "total": 2267,
+      "on_time": 1527,
+      "on_time_pct": 67.36,
+      "avg_det": 76.3,
+      "ym_dt": "2024-02-01 00:00:00"
+    },
+    {
+      "ym": "2024-03",
+      "event_type": "Delivery",
+      "total": 2425,
+      "on_time": 1056,
+      "on_time_pct": 43.55,
+      "avg_det": 107.2,
+      "ym_dt": "2024-03-01 00:00:00"
+    },
+    {
+      "ym": "2024-03",
+      "event_type": "Pickup",
+      "total": 2431,
+      "on_time": 1618,
+      "on_time_pct": 66.56,
+      "avg_det": 75.6,
+      "ym_dt": "2024-03-01 00:00:00"
+    },
+    {
+      "ym": "2024-04",
+      "event_type": "Delivery",
+      "total": 2357,
+      "on_time": 1060,
+      "on_time_pct": 44.97,
+      "avg_det": 107.1,
+      "ym_dt": "2024-04-01 00:00:00"
+    },
+    {
+      "ym": "2024-04",
+      "event_type": "Pickup",
+      "total": 2354,
+      "on_time": 1589,
+      "on_time_pct": 67.5,
+      "avg_det": 76.4,
+      "ym_dt": "2024-04-01 00:00:00"
+    },
+    {
+      "ym": "2024-05",
+      "event_type": "Delivery",
+      "total": 2459,
+      "on_time": 1125,
+      "on_time_pct": 45.75,
+      "avg_det": 108.1,
+      "ym_dt": "2024-05-01 00:00:00"
+    },
+    {
+      "ym": "2024-05",
+      "event_type": "Pickup",
+      "total": 2442,
+      "on_time": 1634,
+      "on_time_pct": 66.91,
+      "avg_det": 78.0,
+      "ym_dt": "2024-05-01 00:00:00"
+    },
+    {
+      "ym": "2024-06",
+      "event_type": "Delivery",
+      "total": 2393,
+      "on_time": 1087,
+      "on_time_pct": 45.42,
+      "avg_det": 104.4,
+      "ym_dt": "2024-06-01 00:00:00"
+    },
+    {
+      "ym": "2024-06",
+      "event_type": "Pickup",
+      "total": 2418,
+      "on_time": 1594,
+      "on_time_pct": 65.92,
+      "avg_det": 75.7,
+      "ym_dt": "2024-06-01 00:00:00"
+    },
+    {
+      "ym": "2024-07",
+      "event_type": "Delivery",
+      "total": 2407,
+      "on_time": 1047,
+      "on_time_pct": 43.5,
+      "avg_det": 109.4,
+      "ym_dt": "2024-07-01 00:00:00"
+    },
+    {
+      "ym": "2024-07",
+      "event_type": "Pickup",
+      "total": 2394,
+      "on_time": 1581,
+      "on_time_pct": 66.04,
+      "avg_det": 75.2,
+      "ym_dt": "2024-07-01 00:00:00"
+    },
+    {
+      "ym": "2024-08",
+      "event_type": "Delivery",
+      "total": 2431,
+      "on_time": 1073,
+      "on_time_pct": 44.14,
+      "avg_det": 104.6,
+      "ym_dt": "2024-08-01 00:00:00"
+    },
+    {
+      "ym": "2024-08",
+      "event_type": "Pickup",
+      "total": 2426,
+      "on_time": 1632,
+      "on_time_pct": 67.27,
+      "avg_det": 75.5,
+      "ym_dt": "2024-08-01 00:00:00"
+    },
+    {
+      "ym": "2024-09",
+      "event_type": "Delivery",
+      "total": 2332,
+      "on_time": 1019,
+      "on_time_pct": 43.7,
+      "avg_det": 105.5,
+      "ym_dt": "2024-09-01 00:00:00"
+    },
+    {
+      "ym": "2024-09",
+      "event_type": "Pickup",
+      "total": 2339,
+      "on_time": 1583,
+      "on_time_pct": 67.68,
+      "avg_det": 76.6,
+      "ym_dt": "2024-09-01 00:00:00"
+    },
+    {
+      "ym": "2024-10",
+      "event_type": "Delivery",
+      "total": 2483,
+      "on_time": 1132,
+      "on_time_pct": 45.59,
+      "avg_det": 105.9,
+      "ym_dt": "2024-10-01 00:00:00"
+    },
+    {
+      "ym": "2024-10",
+      "event_type": "Pickup",
+      "total": 2474,
+      "on_time": 1634,
+      "on_time_pct": 66.05,
+      "avg_det": 77.3,
+      "ym_dt": "2024-10-01 00:00:00"
+    },
+    {
+      "ym": "2024-11",
+      "event_type": "Delivery",
+      "total": 2344,
+      "on_time": 1046,
+      "on_time_pct": 44.62,
+      "avg_det": 106.3,
+      "ym_dt": "2024-11-01 00:00:00"
+    },
+    {
+      "ym": "2024-11",
+      "event_type": "Pickup",
+      "total": 2357,
+      "on_time": 1602,
+      "on_time_pct": 67.97,
+      "avg_det": 78.1,
+      "ym_dt": "2024-11-01 00:00:00"
+    },
+    {
+      "ym": "2024-12",
+      "event_type": "Delivery",
+      "total": 2363,
+      "on_time": 1040,
+      "on_time_pct": 44.01,
+      "avg_det": 106.6,
+      "ym_dt": "2024-12-01 00:00:00"
+    },
+    {
+      "ym": "2024-12",
+      "event_type": "Pickup",
+      "total": 2353,
+      "on_time": 1566,
+      "on_time_pct": 66.55,
+      "avg_det": 77.9,
+      "ym_dt": "2024-12-01 00:00:00"
+    },
+    {
+      "ym": "2025-01",
+      "event_type": "Delivery",
+      "total": 77,
+      "on_time": 33,
+      "on_time_pct": 42.86,
+      "avg_det": 116.5,
+      "ym_dt": "2025-01-01 00:00:00"
+    }
+  ],
+  "load_type_breakdown": [
+    {
+      "load_type": "Refrigerated",
+      "loads": 42946,
+      "revenue": 131967009.32,
+      "avg_rev": 3072.86
+    },
+    {
+      "load_type": "Dry Van",
+      "loads": 42464,
+      "revenue": 130558790.97,
+      "avg_rev": 3074.58
+    }
+  ],
+  "booking_type_breakdown": [
+    {
+      "booking_type": "Dedicated",
+      "loads": 42337,
+      "revenue": 130236635.41,
+      "avg_rev": 3076.19
+    },
+    {
+      "booking_type": "Spot",
+      "loads": 21528,
+      "revenue": 66321705.72,
+      "avg_rev": 3080.72
+    },
+    {
+      "booking_type": "Contract",
+      "loads": 21545,
+      "revenue": 65967459.16,
+      "avg_rev": 3061.85
+    }
+  ],
+  "top10_customers": [
+    {
+      "customer_name": "XYZ Foods",
+      "customer_type": "Dedicated",
+      "loads": 476,
+      "revenue": 1544419.81,
+      "avg_rev": 3244.58
+    },
+    {
+      "customer_name": "Superior Group",
+      "customer_type": "Contract",
+      "loads": 497,
+      "revenue": 1542321.02,
+      "avg_rev": 3103.26
+    },
+    {
+      "customer_name": "Metro Group",
+      "customer_type": "Spot",
+      "loads": 487,
+      "revenue": 1521982.07,
+      "avg_rev": 3125.22
+    },
+    {
+      "customer_name": "National Wholesale",
+      "customer_type": "Contract",
+      "loads": 470,
+      "revenue": 1487129.31,
+      "avg_rev": 3164.1
+    },
+    {
+      "customer_name": "Metro Foods",
+      "customer_type": "Dedicated",
+      "loads": 463,
+      "revenue": 1483188.9,
+      "avg_rev": 3203.43
+    },
+    {
+      "customer_name": "First Group",
+      "customer_type": "Contract",
+      "loads": 476,
+      "revenue": 1481527.84,
+      "avg_rev": 3112.45
+    },
+    {
+      "customer_name": "Continental Group",
+      "customer_type": "Spot",
+      "loads": 481,
+      "revenue": 1479584.73,
+      "avg_rev": 3076.06
+    },
+    {
+      "customer_name": "United Corp",
+      "customer_type": "Contract",
+      "loads": 460,
+      "revenue": 1477854.32,
+      "avg_rev": 3212.73
+    },
+    {
+      "customer_name": "First Supply Chain",
+      "customer_type": "Contract",
+      "loads": 454,
+      "revenue": 1472131.31,
+      "avg_rev": 3242.58
+    },
+    {
+      "customer_name": "XYZ Logistics",
+      "customer_type": "Spot",
+      "loads": 483,
+      "revenue": 1471132.9,
+      "avg_rev": 3045.82
+    }
+  ],
+  "utilization_stats": {
+    "mean": 0.83,
+    "median": 0.833,
+    "p25": 0.71,
+    "p75": 0.935,
+    "min": 0.387,
+    "max": 1.484,
+    "pct_below_70": 20.4,
+    "pct_above_95": 23.2
+  },
+  "fuel_trend": [
+    {
+      "ym": "2022-01",
+      "gallons": 669956.2,
+      "fuel_cost": 2822857.1,
+      "avg_price": 4.215,
+      "ym_dt": "2022-01-01 00:00:00"
+    },
+    {
+      "ym": "2022-02",
+      "gallons": 620257.8,
+      "fuel_cost": 2601024.9,
+      "avg_price": 4.197,
+      "ym_dt": "2022-02-01 00:00:00"
+    },
+    {
+      "ym": "2022-03",
+      "gallons": 680426.3,
+      "fuel_cost": 2855264.99,
+      "avg_price": 4.196,
+      "ym_dt": "2022-03-01 00:00:00"
+    },
+    {
+      "ym": "2022-04",
+      "gallons": 680599.7,
+      "fuel_cost": 2857719.1,
+      "avg_price": 4.199,
+      "ym_dt": "2022-04-01 00:00:00"
+    },
+    {
+      "ym": "2022-05",
+      "gallons": 685553.2,
+      "fuel_cost": 2881461.91,
+      "avg_price": 4.204,
+      "ym_dt": "2022-05-01 00:00:00"
+    },
+    {
+      "ym": "2022-06",
+      "gallons": 671079.9,
+      "fuel_cost": 2815372.68,
+      "avg_price": 4.194,
+      "ym_dt": "2022-06-01 00:00:00"
+    },
+    {
+      "ym": "2022-07",
+      "gallons": 697222.1,
+      "fuel_cost": 2922198.68,
+      "avg_price": 4.193,
+      "ym_dt": "2022-07-01 00:00:00"
+    },
+    {
+      "ym": "2022-08",
+      "gallons": 736548.2,
+      "fuel_cost": 3093596.71,
+      "avg_price": 4.201,
+      "ym_dt": "2022-08-01 00:00:00"
+    },
+    {
+      "ym": "2022-09",
+      "gallons": 666232.7,
+      "fuel_cost": 2788561.01,
+      "avg_price": 4.188,
+      "ym_dt": "2022-09-01 00:00:00"
+    },
+    {
+      "ym": "2022-10",
+      "gallons": 715693.9,
+      "fuel_cost": 3009586.07,
+      "avg_price": 4.203,
+      "ym_dt": "2022-10-01 00:00:00"
+    },
+    {
+      "ym": "2022-11",
+      "gallons": 677114.0,
+      "fuel_cost": 2837716.28,
+      "avg_price": 4.189,
+      "ym_dt": "2022-11-01 00:00:00"
+    },
+    {
+      "ym": "2022-12",
+      "gallons": 681132.3,
+      "fuel_cost": 2859819.46,
+      "avg_price": 4.195,
+      "ym_dt": "2022-12-01 00:00:00"
+    },
+    {
+      "ym": "2023-01",
+      "gallons": 681652.5,
+      "fuel_cost": 2625414.7,
+      "avg_price": 3.854,
+      "ym_dt": "2023-01-01 00:00:00"
+    },
+    {
+      "ym": "2023-02",
+      "gallons": 615156.9,
+      "fuel_cost": 2361398.05,
+      "avg_price": 3.84,
+      "ym_dt": "2023-02-01 00:00:00"
+    },
+    {
+      "ym": "2023-03",
+      "gallons": 714051.5,
+      "fuel_cost": 2757842.58,
+      "avg_price": 3.86,
+      "ym_dt": "2023-03-01 00:00:00"
+    },
+    {
+      "ym": "2023-04",
+      "gallons": 658799.3,
+      "fuel_cost": 2542577.45,
+      "avg_price": 3.858,
+      "ym_dt": "2023-04-01 00:00:00"
+    },
+    {
+      "ym": "2023-05",
+      "gallons": 661775.1,
+      "fuel_cost": 2549762.62,
+      "avg_price": 3.851,
+      "ym_dt": "2023-05-01 00:00:00"
+    },
+    {
+      "ym": "2023-06",
+      "gallons": 667254.1,
+      "fuel_cost": 2566581.79,
+      "avg_price": 3.845,
+      "ym_dt": "2023-06-01 00:00:00"
+    },
+    {
+      "ym": "2023-07",
+      "gallons": 717975.9,
+      "fuel_cost": 2762248.0,
+      "avg_price": 3.848,
+      "ym_dt": "2023-07-01 00:00:00"
+    },
+    {
+      "ym": "2023-08",
+      "gallons": 670003.8,
+      "fuel_cost": 2577436.48,
+      "avg_price": 3.848,
+      "ym_dt": "2023-08-01 00:00:00"
+    },
+    {
+      "ym": "2023-09",
+      "gallons": 667918.8,
+      "fuel_cost": 2568924.14,
+      "avg_price": 3.844,
+      "ym_dt": "2023-09-01 00:00:00"
+    },
+    {
+      "ym": "2023-10",
+      "gallons": 675646.4,
+      "fuel_cost": 2603655.77,
+      "avg_price": 3.852,
+      "ym_dt": "2023-10-01 00:00:00"
+    },
+    {
+      "ym": "2023-11",
+      "gallons": 675075.2,
+      "fuel_cost": 2598664.01,
+      "avg_price": 3.847,
+      "ym_dt": "2023-11-01 00:00:00"
+    },
+    {
+      "ym": "2023-12",
+      "gallons": 665188.0,
+      "fuel_cost": 2558613.98,
+      "avg_price": 3.847,
+      "ym_dt": "2023-12-01 00:00:00"
+    },
+    {
+      "ym": "2024-01",
+      "gallons": 689448.7,
+      "fuel_cost": 2518064.87,
+      "avg_price": 3.652,
+      "ym_dt": "2024-01-01 00:00:00"
+    },
+    {
+      "ym": "2024-02",
+      "gallons": 648757.8,
+      "fuel_cost": 2367414.23,
+      "avg_price": 3.651,
+      "ym_dt": "2024-02-01 00:00:00"
+    },
+    {
+      "ym": "2024-03",
+      "gallons": 704551.1,
+      "fuel_cost": 2567952.34,
+      "avg_price": 3.644,
+      "ym_dt": "2024-03-01 00:00:00"
+    },
+    {
+      "ym": "2024-04",
+      "gallons": 684004.7,
+      "fuel_cost": 2498008.27,
+      "avg_price": 3.651,
+      "ym_dt": "2024-04-01 00:00:00"
+    },
+    {
+      "ym": "2024-05",
+      "gallons": 715061.3,
+      "fuel_cost": 2608498.1,
+      "avg_price": 3.648,
+      "ym_dt": "2024-05-01 00:00:00"
+    },
+    {
+      "ym": "2024-06",
+      "gallons": 687796.5,
+      "fuel_cost": 2513030.04,
+      "avg_price": 3.655,
+      "ym_dt": "2024-06-01 00:00:00"
+    },
+    {
+      "ym": "2024-07",
+      "gallons": 694084.0,
+      "fuel_cost": 2532598.08,
+      "avg_price": 3.647,
+      "ym_dt": "2024-07-01 00:00:00"
+    },
+    {
+      "ym": "2024-08",
+      "gallons": 689204.0,
+      "fuel_cost": 2512518.06,
+      "avg_price": 3.646,
+      "ym_dt": "2024-08-01 00:00:00"
+    },
+    {
+      "ym": "2024-09",
+      "gallons": 668436.5,
+      "fuel_cost": 2440501.75,
+      "avg_price": 3.651,
+      "ym_dt": "2024-09-01 00:00:00"
+    },
+    {
+      "ym": "2024-10",
+      "gallons": 717571.4,
+      "fuel_cost": 2619832.28,
+      "avg_price": 3.649,
+      "ym_dt": "2024-10-01 00:00:00"
+    },
+    {
+      "ym": "2024-11",
+      "gallons": 668080.3,
+      "fuel_cost": 2438131.27,
+      "avg_price": 3.646,
+      "ym_dt": "2024-11-01 00:00:00"
+    },
+    {
+      "ym": "2024-12",
+      "gallons": 674250.7,
+      "fuel_cost": 2464875.39,
+      "avg_price": 3.654,
+      "ym_dt": "2024-12-01 00:00:00"
+    },
+    {
+      "ym": "2025-01",
+      "gallons": 25477.0,
+      "fuel_cost": 93268.9,
+      "avg_price": 3.663,
+      "ym_dt": "2025-01-01 00:00:00"
+    }
+  ],
+  "mpg_trend": [
+    {
+      "ym": "2022-01-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 37857.0,
+      "ym_dt": "2022-01-01 00:00:00"
+    },
+    {
+      "ym": "2022-02-01",
+      "avg_mpg": 6.48,
+      "avg_miles": 32694.0,
+      "ym_dt": "2022-02-01 00:00:00"
+    },
+    {
+      "ym": "2022-03-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 36553.0,
+      "ym_dt": "2022-03-01 00:00:00"
+    },
+    {
+      "ym": "2022-04-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 35480.0,
+      "ym_dt": "2022-04-01 00:00:00"
+    },
+    {
+      "ym": "2022-05-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 36832.0,
+      "ym_dt": "2022-05-01 00:00:00"
+    },
+    {
+      "ym": "2022-06-01",
+      "avg_mpg": 6.5,
+      "avg_miles": 36468.0,
+      "ym_dt": "2022-06-01 00:00:00"
+    },
+    {
+      "ym": "2022-07-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 36777.0,
+      "ym_dt": "2022-07-01 00:00:00"
+    },
+    {
+      "ym": "2022-08-01",
+      "avg_mpg": 6.5,
+      "avg_miles": 38265.0,
+      "ym_dt": "2022-08-01 00:00:00"
+    },
+    {
+      "ym": "2022-09-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35017.0,
+      "ym_dt": "2022-09-01 00:00:00"
+    },
+    {
+      "ym": "2022-10-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 37306.0,
+      "ym_dt": "2022-10-01 00:00:00"
+    },
+    {
+      "ym": "2022-11-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35631.0,
+      "ym_dt": "2022-11-01 00:00:00"
+    },
+    {
+      "ym": "2022-12-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 36293.0,
+      "ym_dt": "2022-12-01 00:00:00"
+    },
+    {
+      "ym": "2023-01-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 37379.0,
+      "ym_dt": "2023-01-01 00:00:00"
+    },
+    {
+      "ym": "2023-02-01",
+      "avg_mpg": 6.5,
+      "avg_miles": 32524.0,
+      "ym_dt": "2023-02-01 00:00:00"
+    },
+    {
+      "ym": "2023-03-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 37299.0,
+      "ym_dt": "2023-03-01 00:00:00"
+    },
+    {
+      "ym": "2023-04-01",
+      "avg_mpg": 6.48,
+      "avg_miles": 36459.0,
+      "ym_dt": "2023-04-01 00:00:00"
+    },
+    {
+      "ym": "2023-05-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 36016.0,
+      "ym_dt": "2023-05-01 00:00:00"
+    },
+    {
+      "ym": "2023-06-01",
+      "avg_mpg": 6.52,
+      "avg_miles": 35902.0,
+      "ym_dt": "2023-06-01 00:00:00"
+    },
+    {
+      "ym": "2023-07-01",
+      "avg_mpg": 6.52,
+      "avg_miles": 37392.0,
+      "ym_dt": "2023-07-01 00:00:00"
+    },
+    {
+      "ym": "2023-08-01",
+      "avg_mpg": 6.5,
+      "avg_miles": 35919.0,
+      "ym_dt": "2023-08-01 00:00:00"
+    },
+    {
+      "ym": "2023-09-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35157.0,
+      "ym_dt": "2023-09-01 00:00:00"
+    },
+    {
+      "ym": "2023-10-01",
+      "avg_mpg": 6.48,
+      "avg_miles": 37070.0,
+      "ym_dt": "2023-10-01 00:00:00"
+    },
+    {
+      "ym": "2023-11-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35718.0,
+      "ym_dt": "2023-11-01 00:00:00"
+    },
+    {
+      "ym": "2023-12-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35582.0,
+      "ym_dt": "2023-12-01 00:00:00"
+    },
+    {
+      "ym": "2024-01-01",
+      "avg_mpg": 6.48,
+      "avg_miles": 36125.0,
+      "ym_dt": "2024-01-01 00:00:00"
+    },
+    {
+      "ym": "2024-02-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 34767.0,
+      "ym_dt": "2024-02-01 00:00:00"
+    },
+    {
+      "ym": "2024-03-01",
+      "avg_mpg": 6.53,
+      "avg_miles": 36741.0,
+      "ym_dt": "2024-03-01 00:00:00"
+    },
+    {
+      "ym": "2024-04-01",
+      "avg_mpg": 6.49,
+      "avg_miles": 35431.0,
+      "ym_dt": "2024-04-01 00:00:00"
+    },
+    {
+      "ym": "2024-05-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 37504.0,
+      "ym_dt": "2024-05-01 00:00:00"
+    },
+    {
+      "ym": "2024-06-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 36930.0,
+      "ym_dt": "2024-06-01 00:00:00"
+    },
+    {
+      "ym": "2024-07-01",
+      "avg_mpg": 6.5,
+      "avg_miles": 36068.0,
+      "ym_dt": "2024-07-01 00:00:00"
+    },
+    {
+      "ym": "2024-08-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 36279.0,
+      "ym_dt": "2024-08-01 00:00:00"
+    },
+    {
+      "ym": "2024-09-01",
+      "avg_mpg": 6.52,
+      "avg_miles": 35432.0,
+      "ym_dt": "2024-09-01 00:00:00"
+    },
+    {
+      "ym": "2024-10-01",
+      "avg_mpg": 6.52,
+      "avg_miles": 37041.0,
+      "ym_dt": "2024-10-01 00:00:00"
+    },
+    {
+      "ym": "2024-11-01",
+      "avg_mpg": 6.53,
+      "avg_miles": 35539.0,
+      "ym_dt": "2024-11-01 00:00:00"
+    },
+    {
+      "ym": "2024-12-01",
+      "avg_mpg": 6.51,
+      "avg_miles": 36034.0,
+      "ym_dt": "2024-12-01 00:00:00"
+    }
+  ],
+  "maintenance_by_type": [
+    {
+      "maintenance_type": "Preventive",
+      "events": 422,
+      "total_cost": 963576.34,
+      "avg_cost": 2283.36,
+      "avg_downtime": 25.0,
+      "labor": 185316.55,
+      "parts": 778259.79
+    },
+    {
+      "maintenance_type": "Repair",
+      "events": 424,
+      "total_cost": 945375.44,
+      "avg_cost": 2229.66,
+      "avg_downtime": 24.7,
+      "labor": 183295.81,
+      "parts": 762079.63
+    },
+    {
+      "maintenance_type": "Tire",
+      "events": 414,
+      "total_cost": 919413.24,
+      "avg_cost": 2220.8,
+      "avg_downtime": 24.4,
+      "labor": 185706.0,
+      "parts": 733707.24
+    },
+    {
+      "maintenance_type": "Brake",
+      "events": 402,
+      "total_cost": 911667.23,
+      "avg_cost": 2267.83,
+      "avg_downtime": 25.0,
+      "labor": 182732.81,
+      "parts": 728934.42
+    },
+    {
+      "maintenance_type": "Engine",
+      "events": 415,
+      "total_cost": 890537.88,
+      "avg_cost": 2145.87,
+      "avg_downtime": 25.1,
+      "labor": 187553.72,
+      "parts": 702984.16
+    },
+    {
+      "maintenance_type": "Transmission",
+      "events": 411,
+      "total_cost": 879620.87,
+      "avg_cost": 2140.2,
+      "avg_downtime": 24.4,
+      "labor": 170056.41,
+      "parts": 709564.46
+    },
+    {
+      "maintenance_type": "Inspection",
+      "events": 432,
+      "total_cost": 220382.28,
+      "avg_cost": 510.14,
+      "avg_downtime": 24.7,
+      "labor": 185845.79,
+      "parts": 34536.49
+    }
+  ],
+  "top_routes": [
+    {
+      "lane": "Philadelphia, PA \u2192 Seattle, WA",
+      "typical_distance_miles": 2729,
+      "loads": 1465,
+      "revenue": 10069054.22,
+      "avg_rev": 6873.07,
+      "rev_per_klb": 247.17
+    },
+    {
+      "lane": "Charlotte, NC \u2192 Portland, OR",
+      "typical_distance_miles": 2627,
+      "loads": 1410,
+      "revenue": 9979091.72,
+      "avg_rev": 7077.37,
+      "rev_per_klb": 257.46
+    },
+    {
+      "lane": "Phoenix, AZ \u2192 Philadelphia, PA",
+      "typical_distance_miles": 2389,
+      "loads": 1507,
+      "revenue": 9757537.38,
+      "avg_rev": 6474.81,
+      "rev_per_klb": 233.52
+    },
+    {
+      "lane": "Columbus, OH \u2192 Portland, OR",
+      "typical_distance_miles": 2332,
+      "loads": 1525,
+      "revenue": 9586536.9,
+      "avg_rev": 6286.25,
+      "rev_per_klb": 230.62
+    },
+    {
+      "lane": "Seattle, WA \u2192 Charlotte, NC",
+      "typical_distance_miles": 2623,
+      "loads": 1467,
+      "revenue": 9516077.71,
+      "avg_rev": 6486.76,
+      "rev_per_klb": 232.93
+    },
+    {
+      "lane": "Columbus, OH \u2192 Los Angeles, CA",
+      "typical_distance_miles": 2269,
+      "loads": 1534,
+      "revenue": 9501202.04,
+      "avg_rev": 6193.74,
+      "rev_per_klb": 224.09
+    },
+    {
+      "lane": "Charlotte, NC \u2192 Seattle, WA",
+      "typical_distance_miles": 2623,
+      "loads": 1447,
+      "revenue": 9070885.01,
+      "avg_rev": 6268.75,
+      "rev_per_klb": 230.11
+    },
+    {
+      "lane": "Seattle, WA \u2192 Indianapolis, IN",
+      "typical_distance_miles": 2147,
+      "loads": 1445,
+      "revenue": 7681556.33,
+      "avg_rev": 5315.96,
+      "rev_per_klb": 193.2
+    },
+    {
+      "lane": "Chicago, IL \u2192 Los Angeles, CA",
+      "typical_distance_miles": 2003,
+      "loads": 1496,
+      "revenue": 7621380.8,
+      "avg_rev": 5094.51,
+      "rev_per_klb": 187.04
+    },
+    {
+      "lane": "Houston, TX \u2192 Portland, OR",
+      "typical_distance_miles": 2108,
+      "loads": 1473,
+      "revenue": 7595328.46,
+      "avg_rev": 5156.37,
+      "rev_per_klb": 186.22
+    },
+    {
+      "lane": "Miami, FL \u2192 Seattle, WA",
+      "typical_distance_miles": 3141,
+      "loads": 1450,
+      "revenue": 7523007.13,
+      "avg_rev": 5188.28,
+      "rev_per_klb": 186.83
+    },
+    {
+      "lane": "Portland, OR \u2192 Columbus, OH",
+      "typical_distance_miles": 2332,
+      "loads": 1472,
+      "revenue": 7264971.31,
+      "avg_rev": 4935.44,
+      "rev_per_klb": 179.7
+    }
+  ],
+  "top_drivers": [
+    {
+      "driver_id": "DRV00051",
+      "driver_name": "Linda Davis",
+      "years_experience": 12,
+      "employment_status": "Active",
+      "avg_ontime": 0.434,
+      "avg_mpg": 6.5,
+      "total_trips": 723,
+      "total_revenue": 2311844.3,
+      "avg_idle": 7.04
+    },
+    {
+      "driver_id": "DRV00108",
+      "driver_name": "Joseph Jones",
+      "years_experience": 23,
+      "employment_status": "Active",
+      "avg_ontime": 0.477,
+      "avg_mpg": 6.52,
+      "total_trips": 735,
+      "total_revenue": 2311327.9,
+      "avg_idle": 7.17
+    },
+    {
+      "driver_id": "DRV00059",
+      "driver_name": "Barbara Gonzalez",
+      "years_experience": 4,
+      "employment_status": "Active",
+      "avg_ontime": 0.46,
+      "avg_mpg": 6.52,
+      "total_trips": 729,
+      "total_revenue": 2305056.6,
+      "avg_idle": 7.03
+    },
+    {
+      "driver_id": "DRV00016",
+      "driver_name": "Thomas Gonzalez",
+      "years_experience": 11,
+      "employment_status": "Active",
+      "avg_ontime": 0.45,
+      "avg_mpg": 6.49,
+      "total_trips": 712,
+      "total_revenue": 2278574.88,
+      "avg_idle": 7.1
+    },
+    {
+      "driver_id": "DRV00019",
+      "driver_name": "Robert Jackson",
+      "years_experience": 20,
+      "employment_status": "Active",
+      "avg_ontime": 0.449,
+      "avg_mpg": 6.47,
+      "total_trips": 749,
+      "total_revenue": 2275654.76,
+      "avg_idle": 7.02
+    },
+    {
+      "driver_id": "DRV00127",
+      "driver_name": "Thomas Gonzalez",
+      "years_experience": 15,
+      "employment_status": "Active",
+      "avg_ontime": 0.421,
+      "avg_mpg": 6.5,
+      "total_trips": 702,
+      "total_revenue": 2272317.62,
+      "avg_idle": 7.01
+    },
+    {
+      "driver_id": "DRV00149",
+      "driver_name": "Linda Jones",
+      "years_experience": 20,
+      "employment_status": "Active",
+      "avg_ontime": 0.452,
+      "avg_mpg": 6.49,
+      "total_trips": 721,
+      "total_revenue": 2269105.67,
+      "avg_idle": 6.96
+    },
+    {
+      "driver_id": "DRV00147",
+      "driver_name": "Richard Garcia",
+      "years_experience": 20,
+      "employment_status": "Active",
+      "avg_ontime": 0.447,
+      "avg_mpg": 6.5,
+      "total_trips": 705,
+      "total_revenue": 2256066.92,
+      "avg_idle": 6.95
+    },
+    {
+      "driver_id": "DRV00085",
+      "driver_name": "Linda Wilson",
+      "years_experience": 23,
+      "employment_status": "Active",
+      "avg_ontime": 0.454,
+      "avg_mpg": 6.51,
+      "total_trips": 703,
+      "total_revenue": 2229521.23,
+      "avg_idle": 6.82
+    },
+    {
+      "driver_id": "DRV00087",
+      "driver_name": "William Anderson",
+      "years_experience": 10,
+      "employment_status": "Active",
+      "avg_ontime": 0.419,
+      "avg_mpg": 6.52,
+      "total_trips": 725,
+      "total_revenue": 2214003.33,
+      "avg_idle": 6.89
+    },
+    {
+      "driver_id": "DRV00114",
+      "driver_name": "Thomas Wilson",
+      "years_experience": 3,
+      "employment_status": "Active",
+      "avg_ontime": 0.463,
+      "avg_mpg": 6.47,
+      "total_trips": 698,
+      "total_revenue": 2191488.37,
+      "avg_idle": 7.09
+    },
+    {
+      "driver_id": "DRV00129",
+      "driver_name": "Michael Smith",
+      "years_experience": 6,
+      "employment_status": "Active",
+      "avg_ontime": 0.447,
+      "avg_mpg": 6.5,
+      "total_trips": 687,
+      "total_revenue": 2185150.9,
+      "avg_idle": 6.94
+    },
+    {
+      "driver_id": "DRV00069",
+      "driver_name": "Patricia Taylor",
+      "years_experience": 15,
+      "employment_status": "Active",
+      "avg_ontime": 0.426,
+      "avg_mpg": 6.5,
+      "total_trips": 699,
+      "total_revenue": 2184963.9,
+      "avg_idle": 7.19
+    },
+    {
+      "driver_id": "DRV00029",
+      "driver_name": "James Martin",
+      "years_experience": 13,
+      "employment_status": "Active",
+      "avg_ontime": 0.472,
+      "avg_mpg": 6.46,
+      "total_trips": 685,
+      "total_revenue": 2184125.54,
+      "avg_idle": 6.99
+    },
+    {
+      "driver_id": "DRV00066",
+      "driver_name": "William Wilson",
+      "years_experience": 18,
+      "employment_status": "Active",
+      "avg_ontime": 0.444,
+      "avg_mpg": 6.5,
+      "total_trips": 737,
+      "total_revenue": 2180636.2,
+      "avg_idle": 7.0
+    }
+  ],
+  "driver_ontime_stats": {
+    "mean": 0.446,
+    "median": 0.444,
+    "min": 0.365,
+    "max": 0.508,
+    "pct_below_40": 2.4,
+    "pct_above_60": 0.0
+  },
+  "detention_impact": [
+    {
+      "detention_bucket": "0 min",
+      "event_type": "Delivery",
+      "events": 9695,
+      "on_time_pct": 45.05
+    },
+    {
+      "detention_bucket": "0 min",
+      "event_type": "Pickup",
+      "events": 12777,
+      "on_time_pct": 66.6
+    },
+    {
+      "detention_bucket": "1-30 min",
+      "event_type": "Delivery",
+      "events": 9551,
+      "on_time_pct": 44.15
+    },
+    {
+      "detention_bucket": "1-30 min",
+      "event_type": "Pickup",
+      "events": 12143,
+      "on_time_pct": 66.89
+    },
+    {
+      "detention_bucket": "121-240 min",
+      "event_type": "Delivery",
+      "events": 37856,
+      "on_time_pct": 44.23
+    },
+    {
+      "detention_bucket": "121-240 min",
+      "event_type": "Pickup",
+      "events": 23929,
+      "on_time_pct": 66.83
+    },
+    {
+      "detention_bucket": "31-60 min",
+      "event_type": "Delivery",
+      "events": 9367,
+      "on_time_pct": 45.16
+    },
+    {
+      "detention_bucket": "31-60 min",
+      "event_type": "Pickup",
+      "events": 12326,
+      "on_time_pct": 66.43
+    },
+    {
+      "detention_bucket": "61-120 min",
+      "event_type": "Delivery",
+      "events": 18941,
+      "on_time_pct": 45.11
+    },
+    {
+      "detention_bucket": "61-120 min",
+      "event_type": "Pickup",
+      "events": 24235,
+      "on_time_pct": 66.77
+    }
+  ],
+  "profitability": [
+    {
+      "yr": "2022",
+      "revenue": 87850899.99,
+      "fuel_cost": 34345178.89,
+      "maint_cost": 1931926.19,
+      "gross_profit": 51573794.91,
+      "gp_margin_pct": 58.71
+    },
+    {
+      "yr": "2023",
+      "revenue": 86955549.64,
+      "fuel_cost": 31073119.57,
+      "maint_cost": 1974808.56,
+      "gross_profit": 53907621.51,
+      "gp_margin_pct": 61.99
+    },
+    {
+      "yr": "2024",
+      "revenue": 87719350.66,
+      "fuel_cost": 30081424.68,
+      "maint_cost": 1823838.53,
+      "gross_profit": 55814087.449999996,
+      "gp_margin_pct": 63.63
+    }
+  ],
+  "kpi_summary": {
+    "total_loads": 85410.0,
+    "total_revenue": 262525800.29,
+    "avg_rev_per_load": 3073.71,
+    "active_customers": 200.0,
+    "active_cust_master": 168.0,
+    "active_drivers": 124.0,
+    "fuel_transactions": 196442.0,
+    "total_fuel_cost": 95592992.04,
+    "maint_events": 2920.0,
+    "total_maint_cost": 5730573.28,
+    "avg_util": 0.83,
+    "avg_mpg": 6.5,
+    "ontime_delivery_pct": 44.61,
+    "ontime_pickup_pct": 66.73,
+    "avg_detention_when_positive": 105.4
+  }
+}

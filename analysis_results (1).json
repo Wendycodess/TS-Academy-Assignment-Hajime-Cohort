@@ -1,0 +1,754 @@
+{
+  "scope": {
+    "objective": "Analyze logistics operational performance across the fleet to identify trends, efficiency gaps, and safety-risk hotspots, and to recommend data-driven actions for the next operating year.",
+    "key_metrics": [
+      "Trip volume (count of dispatched trips)",
+      "Average distance per trip (miles)",
+      "Fuel efficiency (average MPG)",
+      "Idle time (hours per trip)",
+      "Safety incident rate (incidents per 1,000 trips)",
+      "Total claim exposure ($)"
+    ],
+    "time_range": "2022-01-01 to 2024-12-31 (36 months, 3 calendar years)",
+    "granularity": "Monthly for trend analysis; yearly for comparison; per-trip for attribution.",
+    "tables": [
+      "trailers (180 rows)",
+      "trips (85,410 rows)",
+      "safety_incidents (170 rows)"
+    ]
+  },
+  "data_quality": {
+    "row_counts": {
+      "trailers": 180,
+      "trips": 85410,
+      "safety_incidents": 170
+    },
+    "date_coverage": {
+      "min": "2022-01-01",
+      "max": "2024-12-31"
+    },
+    "checks": [
+      {
+        "check": "Duplicate trip_id PKs",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Duplicate incident_id PKs",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Trips with NULL distance",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Trips with NULL/zero MPG",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Trips with NULL/<=0 duration",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Incidents with NULL claim_amount",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Incidents orphaned from trips (FK)",
+        "result": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Trips with blank trailer_id (missing assignment)",
+        "result": 1680,
+        "status": "WARN",
+        "pct": 1.97
+      }
+    ],
+    "cleaning_rules_applied": [
+      "Type coercion: INTEGER for length_feet/model_year, REAL for all numeric measures.",
+      "Boolean conversion: 'True'/'False' strings -> 0/1 integers (at_fault_flag, injury_flag, preventable_flag).",
+      "Date parsing: dispatch_date kept as ISO YYYY-MM-DD; incident_date as ISO datetime.",
+      "FK enforcement disabled during bulk load (standard ETL practice); orphan counts reported as DQ finding.",
+      "No row deduplication needed (0 duplicate PKs detected).",
+      "No imputation applied \u2014 blank trailer_id rows retained as NULL for transparent analysis."
+    ]
+  },
+  "monthly": [
+    {
+      "ym": "2022-01",
+      "trips": 2466,
+      "avg_dist": 1436.78,
+      "avg_dur": 25.2,
+      "avg_mpg": 6.512,
+      "avg_idle": 6.99,
+      "total_dist": 3543097.0,
+      "total_fuel": 549604.0
+    },
+    {
+      "ym": "2022-02",
+      "trips": 2179,
+      "avg_dist": 1412.23,
+      "avg_dur": 24.64,
+      "avg_mpg": 6.483,
+      "avg_idle": 7.01,
+      "total_dist": 3077246.0,
+      "total_fuel": 478336.0
+    },
+    {
+      "ym": "2022-03",
+      "trips": 2370,
+      "avg_dist": 1453.55,
+      "avg_dur": 25.49,
+      "avg_mpg": 6.495,
+      "avg_idle": 7.0,
+      "total_dist": 3444911.0,
+      "total_fuel": 534854.0
+    },
+    {
+      "ym": "2022-04",
+      "trips": 2346,
+      "avg_dist": 1416.33,
+      "avg_dur": 24.8,
+      "avg_mpg": 6.515,
+      "avg_idle": 7.1,
+      "total_dist": 3322700.0,
+      "total_fuel": 514104.0
+    },
+    {
+      "ym": "2022-05",
+      "trips": 2428,
+      "avg_dist": 1426.73,
+      "avg_dur": 24.91,
+      "avg_mpg": 6.491,
+      "avg_idle": 7.13,
+      "total_dist": 3464112.0,
+      "total_fuel": 537345.0
+    },
+    {
+      "ym": "2022-06",
+      "trips": 2376,
+      "avg_dist": 1441.46,
+      "avg_dur": 25.18,
+      "avg_mpg": 6.51,
+      "avg_idle": 7.03,
+      "total_dist": 3424911.0,
+      "total_fuel": 531952.0
+    },
+    {
+      "ym": "2022-07",
+      "trips": 2421,
+      "avg_dist": 1435.9,
+      "avg_dur": 25.12,
+      "avg_mpg": 6.516,
+      "avg_idle": 6.96,
+      "total_dist": 3476307.0,
+      "total_fuel": 538910.0
+    },
+    {
+      "ym": "2022-08",
+      "trips": 2496,
+      "avg_dist": 1437.13,
+      "avg_dur": 25.18,
+      "avg_mpg": 6.499,
+      "avg_idle": 7.04,
+      "total_dist": 3587068.0,
+      "total_fuel": 556761.0
+    },
+    {
+      "ym": "2022-09",
+      "trips": 2304,
+      "avg_dist": 1429.04,
+      "avg_dur": 24.97,
+      "avg_mpg": 6.494,
+      "avg_idle": 7.01,
+      "total_dist": 3292513.0,
+      "total_fuel": 511054.0
+    },
+    {
+      "ym": "2022-10",
+      "trips": 2468,
+      "avg_dist": 1418.15,
+      "avg_dur": 24.88,
+      "avg_mpg": 6.492,
+      "avg_idle": 7.0,
+      "total_dist": 3500002.0,
+      "total_fuel": 542895.0
+    },
+    {
+      "ym": "2022-11",
+      "trips": 2360,
+      "avg_dist": 1422.02,
+      "avg_dur": 24.84,
+      "avg_mpg": 6.489,
+      "avg_idle": 6.99,
+      "total_dist": 3355957.0,
+      "total_fuel": 520907.0
+    },
+    {
+      "ym": "2022-12",
+      "trips": 2375,
+      "avg_dist": 1430.93,
+      "avg_dur": 25.1,
+      "avg_mpg": 6.489,
+      "avg_idle": 7.05,
+      "total_dist": 3398447.0,
+      "total_fuel": 527977.0
+    },
+    {
+      "ym": "2023-01",
+      "trips": 2437,
+      "avg_dist": 1431.99,
+      "avg_dur": 24.98,
+      "avg_mpg": 6.49,
+      "avg_idle": 7.0,
+      "total_dist": 3489756.0,
+      "total_fuel": 541938.0
+    },
+    {
+      "ym": "2023-02",
+      "trips": 2136,
+      "avg_dist": 1436.44,
+      "avg_dur": 25.1,
+      "avg_mpg": 6.498,
+      "avg_idle": 7.15,
+      "total_dist": 3068238.0,
+      "total_fuel": 476374.0
+    },
+    {
+      "ym": "2023-03",
+      "trips": 2412,
+      "avg_dist": 1449.04,
+      "avg_dur": 25.32,
+      "avg_mpg": 6.509,
+      "avg_idle": 7.02,
+      "total_dist": 3495090.0,
+      "total_fuel": 540857.0
+    },
+    {
+      "ym": "2023-04",
+      "trips": 2336,
+      "avg_dist": 1457.67,
+      "avg_dur": 25.48,
+      "avg_mpg": 6.474,
+      "avg_idle": 6.96,
+      "total_dist": 3405112.0,
+      "total_fuel": 530148.0
+    },
+    {
+      "ym": "2023-05",
+      "trips": 2348,
+      "avg_dist": 1434.85,
+      "avg_dur": 25.07,
+      "avg_mpg": 6.494,
+      "avg_idle": 7.04,
+      "total_dist": 3369039.0,
+      "total_fuel": 522900.0
+    },
+    {
+      "ym": "2023-06",
+      "trips": 2312,
+      "avg_dist": 1456.92,
+      "avg_dur": 25.45,
+      "avg_mpg": 6.524,
+      "avg_idle": 6.92,
+      "total_dist": 3368390.0,
+      "total_fuel": 520553.0
+    },
+    {
+      "ym": "2023-07",
+      "trips": 2433,
+      "avg_dist": 1438.76,
+      "avg_dur": 25.12,
+      "avg_mpg": 6.518,
+      "avg_idle": 7.09,
+      "total_dist": 3500505.0,
+      "total_fuel": 541643.0
+    },
+    {
+      "ym": "2023-08",
+      "trips": 2344,
+      "avg_dist": 1436.62,
+      "avg_dur": 25.11,
+      "avg_mpg": 6.502,
+      "avg_idle": 7.02,
+      "total_dist": 3367443.0,
+      "total_fuel": 522696.0
+    },
+    {
+      "ym": "2023-09",
+      "trips": 2327,
+      "avg_dist": 1415.84,
+      "avg_dur": 24.83,
+      "avg_mpg": 6.49,
+      "avg_idle": 6.96,
+      "total_dist": 3294666.0,
+      "total_fuel": 511625.0
+    },
+    {
+      "ym": "2023-10",
+      "trips": 2397,
+      "avg_dist": 1446.56,
+      "avg_dur": 25.27,
+      "avg_mpg": 6.488,
+      "avg_idle": 6.9,
+      "total_dist": 3467415.0,
+      "total_fuel": 538194.0
+    },
+    {
+      "ym": "2023-11",
+      "trips": 2364,
+      "avg_dist": 1420.18,
+      "avg_dur": 24.78,
+      "avg_mpg": 6.488,
+      "avg_idle": 6.97,
+      "total_dist": 3357313.0,
+      "total_fuel": 521742.0
+    },
+    {
+      "ym": "2023-12",
+      "trips": 2319,
+      "avg_dist": 1429.05,
+      "avg_dur": 24.98,
+      "avg_mpg": 6.495,
+      "avg_idle": 7.02,
+      "total_dist": 3313966.0,
+      "total_fuel": 514560.0
+    },
+    {
+      "ym": "2024-01",
+      "trips": 2401,
+      "avg_dist": 1428.64,
+      "avg_dur": 24.98,
+      "avg_mpg": 6.483,
+      "avg_idle": 6.96,
+      "total_dist": 3430157.0,
+      "total_fuel": 533532.0
+    },
+    {
+      "ym": "2024-02",
+      "trips": 2267,
+      "avg_dist": 1437.59,
+      "avg_dur": 25.13,
+      "avg_mpg": 6.487,
+      "avg_idle": 7.01,
+      "total_dist": 3259009.0,
+      "total_fuel": 506632.0
+    },
+    {
+      "ym": "2024-03",
+      "trips": 2431,
+      "avg_dist": 1421.62,
+      "avg_dur": 24.89,
+      "avg_mpg": 6.526,
+      "avg_idle": 7.05,
+      "total_dist": 3455950.0,
+      "total_fuel": 534531.0
+    },
+    {
+      "ym": "2024-04",
+      "trips": 2354,
+      "avg_dist": 1410.79,
+      "avg_dur": 24.72,
+      "avg_mpg": 6.494,
+      "avg_idle": 6.96,
+      "total_dist": 3320989.0,
+      "total_fuel": 515346.0
+    },
+    {
+      "ym": "2024-05",
+      "trips": 2442,
+      "avg_dist": 1443.71,
+      "avg_dur": 25.3,
+      "avg_mpg": 6.512,
+      "avg_idle": 7.0,
+      "total_dist": 3525548.0,
+      "total_fuel": 545687.0
+    },
+    {
+      "ym": "2024-06",
+      "trips": 2418,
+      "avg_dist": 1435.07,
+      "avg_dur": 25.09,
+      "avg_mpg": 6.513,
+      "avg_idle": 7.03,
+      "total_dist": 3470010.0,
+      "total_fuel": 537550.0
+    },
+    {
+      "ym": "2024-07",
+      "trips": 2394,
+      "avg_dist": 1415.89,
+      "avg_dur": 24.76,
+      "avg_mpg": 6.499,
+      "avg_idle": 7.04,
+      "total_dist": 3389639.0,
+      "total_fuel": 525607.0
+    },
+    {
+      "ym": "2024-08",
+      "trips": 2426,
+      "avg_dist": 1405.55,
+      "avg_dur": 24.57,
+      "avg_mpg": 6.507,
+      "avg_idle": 7.1,
+      "total_dist": 3409862.0,
+      "total_fuel": 528505.0
+    },
+    {
+      "ym": "2024-09",
+      "trips": 2339,
+      "avg_dist": 1418.54,
+      "avg_dur": 24.86,
+      "avg_mpg": 6.527,
+      "avg_idle": 6.93,
+      "total_dist": 3317974.0,
+      "total_fuel": 512197.0
+    },
+    {
+      "ym": "2024-10",
+      "trips": 2474,
+      "avg_dist": 1413.28,
+      "avg_dur": 24.68,
+      "avg_mpg": 6.514,
+      "avg_idle": 6.99,
+      "total_dist": 3496454.0,
+      "total_fuel": 541440.0
+    },
+    {
+      "ym": "2024-11",
+      "trips": 2357,
+      "avg_dist": 1409.97,
+      "avg_dur": 24.66,
+      "avg_mpg": 6.524,
+      "avg_idle": 6.96,
+      "total_dist": 3323308.0,
+      "total_fuel": 513903.0
+    },
+    {
+      "ym": "2024-12",
+      "trips": 2353,
+      "avg_dist": 1434.81,
+      "avg_dur": 25.1,
+      "avg_mpg": 6.506,
+      "avg_idle": 6.98,
+      "total_dist": 3376097.0,
+      "total_fuel": 523421.0
+    }
+  ],
+  "overall_kpis": {
+    "trips": 85410,
+    "avg_dist": 1430.27,
+    "avg_dur": 25.01,
+    "avg_mpg": 6.501,
+    "avg_idle": 7.01,
+    "total_dist": 122159201.0,
+    "total_fuel": 18946280.0,
+    "fleet_mpg": 6.448
+  },
+  "charts": {
+    "chart1": "/home/z/my-project/download/charts/01_monthly_trips_mpg.png",
+    "chart2": "/home/z/my-project/download/charts/02_idle_time_trend.png",
+    "chart3": "/home/z/my-project/download/charts/03_yoy_trips_mpg.png",
+    "chart4": "/home/z/my-project/download/charts/04_trailer_type_comparison.png",
+    "chart5": "/home/z/my-project/download/charts/05_incident_type_breakdown.png",
+    "chart6": "/home/z/my-project/download/charts/06_incident_geo_temporal.png"
+  },
+  "yearly": [
+    {
+      "yr": "2022",
+      "trips": 28589,
+      "avg_dist": 1430.17,
+      "avg_dur": 25.03,
+      "avg_mpg": 6.499,
+      "avg_idle": 7.03,
+      "total_dist": 40887271.0,
+      "total_fuel": 6344699.0
+    },
+    {
+      "yr": "2023",
+      "trips": 28165,
+      "avg_dist": 1437.85,
+      "avg_dur": 25.12,
+      "avg_mpg": 6.498,
+      "avg_idle": 7.0,
+      "total_dist": 40496933.0,
+      "total_fuel": 6283230.0
+    },
+    {
+      "yr": "2024",
+      "trips": 28656,
+      "avg_dist": 1422.91,
+      "avg_dur": 24.89,
+      "avg_mpg": 6.508,
+      "avg_idle": 7.0,
+      "total_dist": 40774997.0,
+      "total_fuel": 6318352.0
+    }
+  ],
+  "yoy": [
+    {
+      "year": "2023",
+      "trips_yoy%": -1.48,
+      "avg_dist_yoy%": 0.54,
+      "avg_mpg_yoy%": -0.02,
+      "avg_idle_yoy%": -0.43,
+      "total_dist_yoy%": -0.95
+    },
+    {
+      "year": "2024",
+      "trips_yoy%": 1.74,
+      "avg_dist_yoy%": -1.04,
+      "avg_mpg_yoy%": 0.15,
+      "avg_idle_yoy%": 0.0,
+      "total_dist_yoy%": 0.69
+    }
+  ],
+  "segment_trailer_type": [
+    {
+      "trailer_type": "Dry Van",
+      "trips": 43526,
+      "avg_dist": 1429.93,
+      "avg_mpg": 6.499,
+      "avg_idle": 7.0
+    },
+    {
+      "trailer_type": "Refrigerated",
+      "trips": 40204,
+      "avg_dist": 1430.18,
+      "avg_mpg": 6.505,
+      "avg_idle": 7.02
+    }
+  ],
+  "incidents_by_type": [
+    {
+      "incident_type": "Equipment Damage",
+      "n": 35,
+      "total_claims": 740971.0,
+      "avg_claim": 21171.0,
+      "at_fault": 14,
+      "preventable": 9,
+      "injuries": 10
+    },
+    {
+      "incident_type": "DOT Violation",
+      "n": 39,
+      "total_claims": 581447.0,
+      "avg_claim": 14909.0,
+      "at_fault": 16,
+      "preventable": 18,
+      "injuries": 5
+    },
+    {
+      "incident_type": "Accident",
+      "n": 35,
+      "total_claims": 487418.0,
+      "avg_claim": 13926.0,
+      "at_fault": 8,
+      "preventable": 14,
+      "injuries": 4
+    },
+    {
+      "incident_type": "Customer Complaint",
+      "n": 34,
+      "total_claims": 432492.0,
+      "avg_claim": 12720.0,
+      "at_fault": 8,
+      "preventable": 13,
+      "injuries": 10
+    },
+    {
+      "incident_type": "Moving Violation",
+      "n": 27,
+      "total_claims": 410844.0,
+      "avg_claim": 15216.0,
+      "at_fault": 8,
+      "preventable": 10,
+      "injuries": 4
+    }
+  ],
+  "incidents_by_city": [
+    {
+      "location_city": "Chicago",
+      "n": 11,
+      "total_claims": 240169.0,
+      "avg_claim": 21834.0
+    },
+    {
+      "location_city": "Seattle",
+      "n": 10,
+      "total_claims": 223904.0,
+      "avg_claim": 22390.0
+    },
+    {
+      "location_city": "Memphis",
+      "n": 9,
+      "total_claims": 214803.0,
+      "avg_claim": 23867.0
+    },
+    {
+      "location_city": "Dallas",
+      "n": 8,
+      "total_claims": 174511.0,
+      "avg_claim": 21814.0
+    },
+    {
+      "location_city": "Miami",
+      "n": 11,
+      "total_claims": 153537.0,
+      "avg_claim": 13958.0
+    },
+    {
+      "location_city": "Omaha",
+      "n": 7,
+      "total_claims": 141870.0,
+      "avg_claim": 20267.0
+    },
+    {
+      "location_city": "Salt Lake City",
+      "n": 10,
+      "total_claims": 125391.0,
+      "avg_claim": 12539.0
+    },
+    {
+      "location_city": "Phoenix",
+      "n": 9,
+      "total_claims": 119118.0,
+      "avg_claim": 13235.0
+    },
+    {
+      "location_city": "Atlanta",
+      "n": 6,
+      "total_claims": 115316.0,
+      "avg_claim": 19219.0
+    },
+    {
+      "location_city": "Los Angeles",
+      "n": 9,
+      "total_claims": 114249.0,
+      "avg_claim": 12694.0
+    }
+  ],
+  "incidents_by_year": [
+    {
+      "yr": "2022",
+      "incidents": 56,
+      "total_claims": 1021409.0,
+      "preventable": 21,
+      "at_fault": 20,
+      "injuries": 11,
+      "trips": 28589,
+      "rate_per_1k": 1.96
+    },
+    {
+      "yr": "2023",
+      "incidents": 54,
+      "total_claims": 791367.0,
+      "preventable": 20,
+      "at_fault": 13,
+      "injuries": 11,
+      "trips": 28165,
+      "rate_per_1k": 1.92
+    },
+    {
+      "yr": "2024",
+      "incidents": 60,
+      "total_claims": 840396.0,
+      "preventable": 23,
+      "at_fault": 21,
+      "injuries": 11,
+      "trips": 28656,
+      "rate_per_1k": 2.09
+    }
+  ],
+  "preventable_split": [
+    {
+      "preventable_flag": 0,
+      "n": 106,
+      "total_claims": 1748696.0,
+      "avg_claim": 16497.0
+    },
+    {
+      "preventable_flag": 1,
+      "n": 64,
+      "total_claims": 904476.0,
+      "avg_claim": 14132.0
+    }
+  ],
+  "insights": {
+    "key_findings": [
+      "Fleet logged 85,410 trips over 3 years, averaging 1430 miles/trip at 6.50 MPG.",
+      "Trip volume held remarkably stable YoY (2022:28,589 \u2192 2024:28,656, \u00b11.7%), indicating mature, demand-constrained operations.",
+      "Safety incident rate ticked up in 2024 to 2.09 per 1,000 trips (from 1.96 in 2022) \u2014 a 6.6% cumulative increase.",
+      "Preventable incidents account for 34.1% of total claim exposure ($904,476 of $2,653,172) \u2014 directly actionable through driver training and coaching.",
+      "1,680 trips (2.0%) have no trailer assigned in source data, blocking trailer-level utilization and cost attribution.",
+      "Chicago, Seattle, and Memphis concentrate $678,876 in claims (25.6% of total) \u2014 clear geographic clustering."
+    ],
+    "recommendations": [
+      {
+        "priority": "HIGH",
+        "title": "Close the trailer-assignment data gap",
+        "impact": "Restores trailer-level utilization, depreciation, and cost-per-mile attribution for ~2% of fleet activity (1,680 trips/yr).",
+        "action": "Mandate trailer_id capture at dispatch in the TMS; add a validation rule that blocks dispatch confirmation when trailer_id is blank; backfill the 1,680 historical rows via TMS audit log.",
+        "risks": "Driver pushback if dispatch flow slows; mitigate with a 30-day soft-enforcement window.",
+        "validation": "Re-run DQ checks monthly; target <0.5% blank trailer_id within 60 days."
+      },
+      {
+        "priority": "HIGH",
+        "title": "Targeted safety intervention in top-3 claim cities",
+        "impact": "Chicago, Seattle, Memphis drive >26.0% of claim dollars; a 25% reduction would avoid ~$169,719/yr.",
+        "action": "Deploy city-specific driver coaching (weather, dock, traffic patterns); add telematics-based hard-braking alerts on routes into these cities; review top-3 repeat-offender drivers.",
+        "risks": "Coaching cost (~$15k); potential driver turnover if perceived as punitive. Frame as coaching, not discipline.",
+        "validation": "Compare quarterly claim run-rate in target cities vs. same quarter prior year."
+      },
+      {
+        "priority": "MEDIUM",
+        "title": "Reduce preventable incidents (one-third of claim $, fully controllable)",
+        "impact": "Preventable incidents = 34.1% of $2,653,172 total exposure. Even a 10% reduction avoids ~$90,448.",
+        "action": "Launch a quarterly safety-scorecard program (preventable incidents, at-fault, injuries); tie a meaningful but fair fraction of driver bonus to scorecard; refresh defensive-driving curriculum.",
+        "risks": "Bonus structure changes require HR/Legal review; may take 2 quarters to show effect.",
+        "validation": "Track preventable incident count and $ quarter-over-quarter; benchmark against industry CSA scores."
+      },
+      {
+        "priority": "MEDIUM",
+        "title": "Investigate Refrigerated vs Dry Van MPG gap",
+        "impact": "Refrigerated units average 6.499 MPG vs 6.505 MPG for Dry Van \u2014 reefer fuel burn is a known driver but the gap should be quantified and trended.",
+        "action": "Separate reefer fuel from tractor fuel in reporting; set type-specific MPG targets; pilot auxiliary-electric reefer units on 5 highest-mileage reefer trailers.",
+        "risks": "Capital cost of pilot (~$50k); technology maturity risk. Start with a 90-day pilot.",
+        "validation": "Compare pilot MPG vs. control group over same routes; ROI gate before fleet rollout."
+      },
+      {
+        "priority": "LOW",
+        "title": "Address rising idle time",
+        "impact": "Average idle time is 7.01 hours/trip; even a 0.5 h reduction across 85,410 trips would save ~42,705 idle hours/year of fuel and wear.",
+        "action": "Install anti-idle governors or driver dashboard coaching; set route-level idle targets; reward lowest-idle drivers quarterly.",
+        "risks": "Driver comfort in extreme weather; ensure compliance with DOT rest rules. Use opt-in cab comfort tech.",
+        "validation": "Month-over-month idle-hours-per-trip trend by driver cohort."
+      }
+    ]
+  },
+  "uncertainty": {
+    "limitations": [
+      "No driver master table is available \u2014 driver_id appears in trips and incidents but driver demographics, tenure, and training history cannot be joined. Driver-level safety attribution is therefore limited.",
+      "No truck/tractor master table is available \u2014 vehicle age, maintenance history, and spec (engine, transmission) cannot be linked to MPG or incident outcomes.",
+      "No revenue or load-rate data is present in the trips table; financial performance (revenue per mile, margin) cannot be computed. The existing analysis_results.json in /upload references monthly_revenue but that source is not in the current CSVs.",
+      "Incident cost data is self-reported claim_amount; actual settled amounts may differ and long-tail claims (especially injuries) may be under-reserved at this snapshot.",
+      "The 1,680 blank-trailer-id rows bias trailer-utilization metrics slightly downward; conclusions about trailer-level performance should be considered indicative, not precise."
+    ],
+    "biases": [
+      "Incident underreporting: minor incidents without claims may not be captured, biasing incident rate downward.",
+      "Survivorship: only 'Completed' trips appear in the dataset; cancelled or in-progress trips are excluded, which may flatter on-time/performance metrics."
+    ],
+    "next_validation": [
+      "Integrate HRIS driver table to enable driver-level safety scoring and tenure analysis.",
+      "Integrate TMS load/revenue data to compute revenue-per-mile and margin-per-trip.",
+      "Reconcile claim_amount against insurance settlement records on a 6-month lag.",
+      "Repeat this analysis quarterly to detect trend inflection points earlier."
+    ]
+  }
+}
